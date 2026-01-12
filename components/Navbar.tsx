@@ -139,7 +139,7 @@ export default function Navbar() {
           {/* CTA */}
           <div className="flex justify-end">
             <a
-              href="/Sahil-Ahemad-Resume.pdf"
+              href="/Sahil_Resume.pdf"
               download
               className="px-5 py-2 rounded-full
                          bg-white text-black text-sm font-semibold
