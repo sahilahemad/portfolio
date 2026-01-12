@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+/* =====================
+   GLOBAL BASE STYLES
+===================== */
+
+html,
+body {
+  color: white;
+  background:
+    radial-gradient(
+      1200px 600px at 10% -10%,
+      rgba(138, 92, 246, 0.545),
+      transparent 40%
+    ),
+    radial-gradient(
+      1000px 500px at 90% 10%,
+      rgba(236, 72, 154, 0.544),
+      transparent 45%
+    ),
+    radial-gradient(
+      800px 400px at 50% 100%,
+      rgba(99, 101, 241, 0.61),
+      transparent 50%
+    ),
+    #0b0f0f;
+}
+
+
+/* =====================
+   GLASS EFFECT
+===================== */
+
+.glass {
+  background: rgba(20, 20, 20, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 20px 60px rgba(0, 0, 0, 0.6);
+}
+
+/* =====================
+   ACCENT COLOR SYSTEM
+===================== */
+
+:root {
+  --accent: 139 92 246;
+}
+
+.accent-bg {
+  background-color: rgb(var(--accent));
+}
+
+.accent-gradient {
+  background-image: linear-gradient(
+    90deg,
+    rgb(var(--accent)),
+    rgb(var(--accent) / 0.7)
+  );
+}
+
+/* =====================
+   ANIMATED GRADIENT BORDER
+===================== */
+
+.gradient-border {
+  position: relative;
+}
+
+.gradient-border::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: linear-gradient(
+    120deg,
+    #8b5cf6,
+    #ec4899,
+    #6366f1,
+    #8b5cf6
+  );
+  background-size: 300% 300%;
+  animation: borderMove 8s linear infinite;
+  z-index: -1;
+}
+
+@keyframes borderMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}
