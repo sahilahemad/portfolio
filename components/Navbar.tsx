@@ -204,7 +204,7 @@ export default function Navbar() {
               ))}
 
               <a
-                href="/Sahil-Ahemad-Resume.pdf"
+                href="/Sahil_Resume.pdf"
                 download
                 className="block mt-6 text-center px-4 py-3 rounded-lg
                            bg-white text-black font-semibold"
