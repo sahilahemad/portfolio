@@ -7,7 +7,7 @@ import { skills } from "../data/skills";
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-32 bg-black/40">
+    <section id="skills" className="py-32 px-6 flex justify-center">
       <motion.div
         className="container"
         variants={staggerContainer}
