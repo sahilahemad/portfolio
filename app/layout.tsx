@@ -14,26 +14,26 @@ export const metadata: Metadata = {
     "Next.js Portfolio",
     "Web Developer India",
   ],
-  authors: [{ name: "Sahil Ahemad" }],
+  authors: [{ name: "Sahil Ahmed" }],
   openGraph: {
-    title: "Sahil Ahemad | Full-Stack Developer",
+    title: "Sahil Ahmed | Full-Stack Developer",
     description:
       "Modern developer portfolio showcasing projects, skills, and experience.",
     url: "https://your-portfolio-url.vercel.app",
-    siteName: "Sahil Ahemad Portfolio",
+    siteName: "Sahil Ahmed Portfolio",
     images: [
       {
         url: "../public/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Sahil Ahemad Portfolio",
+        alt: "Sahil Ahmed Portfolio",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sahil Ahemad | Full-Stack Developer",
+    title: "Sahil Ahmed | Full-Stack Developer",
     description:
       "Full-Stack Developer portfolio built with Next.js and modern UI.",
     images: ["../public/og-image.png"],
