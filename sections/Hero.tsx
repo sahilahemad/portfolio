@@ -23,7 +23,7 @@ export default function Hero() {
 
         {/* NAME */}
         <h1 className="text-5xl md:text-6xl font-bold tracking-tight">
-          Sahil Ahemad
+          Sahil Ahmed
         </h1>
 
         {/* ROLE */}
