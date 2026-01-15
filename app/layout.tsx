@@ -4,11 +4,11 @@ import ScrollProgress from "../components/ScrollProgress";
 import "../styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "Sahil Ahemad | Full-Stack Developer",
+  title: "Sahil Ahmed | Full-Stack Developer",
   description:
-    "Sahil Ahemad is a Full-Stack Developer skilled in React, Next.js, Node.js, and modern web technologies. View projects, skills, and experience.",
+    "Sahil Ahmed is a Full-Stack Developer skilled in React, Next.js, Node.js, and modern web technologies. View projects, skills, and experience.",
   keywords: [
-    "Sahil Ahemad",
+    "Sahil Ahmed",
     "Full Stack Developer",
     "React Developer",
     "Next.js Portfolio",
